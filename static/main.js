@@ -1,0 +1,1 @@
+document.getElementById("menu")?.addEventListener("click",()=>document.getElementById("nav")?.classList.toggle("open"));setTimeout(()=>document.querySelectorAll(".flash").forEach(x=>x.style.opacity="0"),5000);
